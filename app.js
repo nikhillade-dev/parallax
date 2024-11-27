@@ -44,7 +44,7 @@ button.addEventListener('click', () => {
 })
 
 
-var target_mili_sec = new Date("Nov 28, 2024 12:0:0").getTime();
+var target_mili_sec = new Date("Nov 28, 2024 ").getTime();
           function timer() {
               var now_mili_sec = new Date().getTime();
               var remaining_sec = Math.floor( (target_mili_sec - now_mili_sec) / 1000 );
